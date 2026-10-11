@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --wheat-cream: #F5EFDC;
+  --wheat-gold: #C9A227;
+  --earth-brown: #8B5E34;
+  --crop-green: #3F6B3F;
+  --ink: #2B2419;
+}
+
+@theme inline {
+  --color-wheat-cream: var(--wheat-cream);
+  --color-wheat-gold: var(--wheat-gold);
+  --color-earth-brown: var(--earth-brown);
+  --color-crop-green: var(--crop-green);
+  --color-ink: var(--ink);
+}
+
+body {
+  background-color: var(--wheat-cream);
+  color: var(--ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, .font-display {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
